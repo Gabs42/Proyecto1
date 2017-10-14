@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gabriel/CLionProjects/Prueba/library.cpp
+library.h
+/home/gabriel/CLionProjects/Prueba/library.h
+iostream
+-
+string.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+stdlib.h
+-
+unistd.h
+-
+netdb.h
+-
+thread
+-
+unistd.h
+-
+signal.h
+-
+
+/home/gabriel/CLionProjects/Prueba/library.h
+
+/home/gabriel/CLionProjects/Prueba/main.cpp
+iostream
+-
+library.h
+/home/gabriel/CLionProjects/Prueba/library.h
+library.cpp
+/home/gabriel/CLionProjects/Prueba/library.cpp
+
