@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/anyExecutable.dir/main.cpp.o  -o anyExecutable  -L/home/gabriel/CLionProjects/cliente/ 

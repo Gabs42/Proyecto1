@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.8)
+project(cliente)
+
+set(CMAKE_CXX_STANDARD 11)
+set(Boost_Path "/home/gabriel/Downloads")
+set(Boost_INCLUDE_DIR "${Boost_Path}/boost_1_65_0")
+find_package(Boost 1.65.0)
+if(Boost_FOUND)
+    message(STATUS "Funciona")
+    include_directories(${Boost_INCLUDE_DIRS})
+    link_directories("${Boost_LIBRARY_DIRS}")
+    ADD_EXECUTABLE( anyExecutable main.cpp )
+    TARGET_LINK_LIBRARIES( anyExecutable LINK_PUBLIC ${Boost_LIBRARIES} )
+endif()
+
+set(SOURCE_FILES main.cpp)
+add_executable(cliente ${SOURCE_FILES})

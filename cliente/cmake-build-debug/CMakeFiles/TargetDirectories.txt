@@ -1,0 +1,4 @@
+/home/gabriel/CLionProjects/cliente/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gabriel/CLionProjects/cliente/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gabriel/CLionProjects/cliente/cmake-build-debug/CMakeFiles/cliente.dir
+/home/gabriel/CLionProjects/cliente/cmake-build-debug/CMakeFiles/anyExecutable.dir
